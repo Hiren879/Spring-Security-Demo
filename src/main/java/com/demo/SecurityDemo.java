@@ -26,11 +26,11 @@ public class SecurityDemo {
 
         // Authority 1 - read
         Authority adminAuthority = new Authority();
-        adminAuthority.setAuthorityName("ADMIN");
+        adminAuthority.setAuthorityName("ROLE_ADMIN");
 
         // Authority 2 : write
         Authority userAuthority = new Authority();
-        userAuthority.setAuthorityName("USER");
+        userAuthority.setAuthorityName("ROLE_USER");
 
         List<Authority> allAuthorityList = Arrays.asList(adminAuthority, userAuthority);
         //  save all authorities to DB

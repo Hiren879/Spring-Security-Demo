@@ -16,7 +16,6 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 @Configuration
-@ComponentScan("com.demo.*")
 public class SecurityConfig {
 
     @Autowired
@@ -34,10 +33,10 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
         httpSecurity.csrf(csrf -> csrf.disable())
                 .cors(cors -> cors.disable())
-                .authorizeHttpRequests()
-                .mvcMatchers("/demo/**")
+                .authorizeRequests()
+                .mvcMatchers("/api/v1/demo")
                 .hasRole("ADMIN")
-                .mvcMatchers("/login/**")
+                .mvcMatchers("/api/v1/login")
                 .permitAll()
                 .anyRequest()
                 .authenticated()
