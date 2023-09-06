@@ -7,17 +7,7 @@
     <list default="true" id="2801bb29-9f08-43fa-9a7c-19c08568ee83" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/testdb.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/testdb.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/SecurityDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/SecurityDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/adapters/SecurityUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/adapters/SecurityUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/entities/Authority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/entities/Authority.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/entities/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/entities/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/security/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/SecurityDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/SecurityDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/adapters/SecurityUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/adapters/SecurityUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/entities/Authority.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/entities/Authority.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/entities/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/entities/Users.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/demo/security/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/security/config/SecurityConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

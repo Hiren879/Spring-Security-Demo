@@ -35,7 +35,7 @@ public class SecurityConfig {
                 .cors(cors -> cors.disable())
                 .authorizeRequests()
                 .mvcMatchers("/api/v1/demo")
-                .hasRole("ADMIN")
+                .hasAuthority("ROLE_ADMIN")
                 .mvcMatchers("/api/v1/login")
                 .permitAll()
                 .anyRequest()
